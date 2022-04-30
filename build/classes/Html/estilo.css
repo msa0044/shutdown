@@ -1,0 +1,51 @@
+*{  
+    color: white;
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: Oswald;
+    }
+
+body{
+    background-color: rgba(18,18,18);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#container {
+    padding: 20px;
+    background-color: rgba(33,33,33);
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+	/* Declaração para aparecer no Firefox */
+	-moz-border-radius: 20px;
+	/* Para exibir nos outros navegadores como Chrome, safari, opera*/
+	-webkit-border-radius: 20px;
+}
+
+#title {
+    color: rgba(236,102,47);
+    font-family: Oswald;
+    text-align: center;
+    width: 400px;
+}
+
+hr {
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    border-color: rgba(71,71,71);
+}
